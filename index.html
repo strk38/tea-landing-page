@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea-House</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.9.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/6814428da6.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'gradient-start': '#FF8938',
+                        'gradient-end': '#F00',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <!-- section 1 -->
+    <section class="container mx-auto">
+        <div class="hero min-h-screen bg-base-200">
+            <div class="hero-content flex-col lg:flex-row">
+                <div>
+                    <h1 class="text-7xl font-extrabold">It's good <br>
+                        tea time at The <br> Tea House</h1>
+                    <p class="py-6">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
+                    </p>
+                    <button
+                        class="btn text-white  rounded-md bg-gradient-to-r from-gradient-start to-gradient-end">Explore
+                        More<i class="fa-solid fa-arrow-trend-up"></i></button>
+                </div>
+                <div>
+                    <img src="images/banner.png" class="max-w-md" />
+                    <!-- rating -->
+                    <div class="-mt-20 flex items-center gap-4 rounded-md drop-shadow-lg bg-white p-5 w-60">
+                        <i class="fa-solid fa-star text-amber-400"></i>
+                        <div>
+                            <h3 class="text-3xl">5.00</h3>
+                            <p>Trust Pilot Ratings</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <main class="container mx-auto">
+        <!-- section 2 -->
+        <section class="text-center my-24 mx-4">
+            <h2 class="text-5xl font-extrabold mb-5">Our Featured Products</h2>
+            <p class="lg:max-w-3xl mx-auto mb-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi tenetur
+                placeat aperiam soluta. Evenie todit.</p>
+            <div class="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+                <div class="card p-8 bg-gradient-to-r from-slate-100 to-slate-50 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="images/tea-1.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Milk Tea</h2>
+                        <p>Creamer could be replaced by fresh milk</p>
+                    </div>
+                </div>
+                <div class="card  p-8 bg-gradient-to-r from-slate-100 to-slate-50 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="images/tea-2.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Black Tea</h2>
+                        <p>Creamer could be replaced by fresh milk</p>
+                    </div>
+                </div>
+                <div class="card p-8 bg-gradient-to-r from-slate-100 to-slate-50 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="images/tea-3.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Lemon Tea</h2>
+                        <p>Creamer could be replaced by fresh milk</p>
+                    </div>
+                </div>
+                <div class="card p-8 bg-gradient-to-r from-slate-100 to-slate-50 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="images/tea-4.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Green Tea</h2>
+                        <p>Creamer could be replaced by fresh milk</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section 3 -->
+        <section class="flex flex-col gap-12 lg:flex-row my-24 mx-4">
+            <div class="grid gap-8 grid-cols-1 md:grid-cols-2 flex-1 ">
+                <div class="rounded-xl h-36 bg-gradient-to-r from-red-100 to-amber-50"></div>
+                <div
+                    class="row-span-2 rounded-xl bg-gradient-to-r from-red-100 to-amber-50 px-8 py-12 flex justify-center">
+                    <img src="images/fresh-1.png">
+                </div>
+                <div
+                    class="row-span-2 rounded-xl bg-gradient-to-r from-slate-100 to-slate-50 px-8 py-12 flex justify-center">
+                    <img src="images/fresh-2.png">
+                </div>
+                <div class="rounded-xl h-36 bg-gradient-to-r from-slate-100 to-slate-50"></div>
+            </div>
+            <div class="space-y-4 flex-1">
+                <h3 class="text-5xl font-extrabold">Great tea, Freshly <br>Presented</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sit nemo optio ratione inventore
+                    eum pariatur veniam doloribus facilis cum, libero perferendis dolorem illum ipsa delectus? Nihil
+                    placeat cum ipsam?</p>
+                <h3 class="font-extrabold">Unique Taste</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus voluptate autem aspernatur
+                    exercitationem.</p>
+                <h3 class="font-extrabold">Premium Quality</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus voluptate autem aspernatur
+                    exercitationem.</p>
+            </div>
+        </section>
+
+        <!-- section 4 -->
+        <section
+            class="mx-4 my-24 flex flex-col lg:flex-row gap-4 rounded-xl bg-gradient-to-r from-orange-500 to-red-700 px-16 py-14">
+            <div class="flex items-center">
+                <div class="space-y-5 lg:mr-40">
+                    <h2 class="text-5xl font-extrabold text-white">Meet Our Super <br>Clients</h2>
+                    <p class="text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio porro officiis
+                        assumenda illo
+                        consectetur necessitatibus velit, voluptas molestias harum! Consequatur ut tempore dolores iste
+                        accusamus repellat ad necessitatibus quas expedita!</p>
+                    <button class="btn btn-primary">Show All</button>
+                </div>
+            </div>
+            <div class="relative">
+                <!-- prev-review -->
+                <div class="relative opacity-40  z-10 left-5 p-10 rounded-lg bg-white mb-10">
+                    <img class="absolute -left-6 -top-6 border-4 border-white rounded-full bg-white"
+                        src="images/client.png">
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quidem quod eius amet
+                        alias quibusdam aspernatur cum rerum exercitationem, possimus vero vitae illum ex a explicabo?
+                        Perspiciatis quis amet autem?
+                    </p>
+                    <h4 class="font-bold mt-5">Ilham Yuda</h4>
+                    <p class="font-medium">Businessman</p>
+                    <div class="flex justify-end"><img class="" src="images/circles.png"></div>
+                </div>
+                <!-- currrent review -->
+                <div class="absolute z-20 top-40 lg:-left-40 lg:w-[530px] p-10 rounded-lg bg-white mx-4">
+                    <img class="absolute -left-6 -top-6 border-4 border-white rounded-full bg-white"
+                        src="images/client.png">
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quidem quod eius amet
+                        alias quibusdam aspernatur cum rerum exercitationem, possimus vero vitae illum ex a explicabo?
+                        Perspiciatis quis amet autem?
+                    </p>
+                    <h4 class="font-bold mt-5">Ilham Yuda</h4>
+                    <p class="font-medium">Businessman</p>
+                    <div class="flex justify-end"><img class="" src="images/circles.png"></div>
+                </div>
+                <!-- next review- -->
+                <div class="relative opacity-40  z-10 left-5 p-10 rounded-lg bg-white">
+                    <img class="absolute -left-6 -top-6 border-4 border-white rounded-full bg-white"
+                        src="images/client.png">
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quidem quod eius amet
+                        alias quibusdam aspernatur cum rerum exercitationem, possimus vero vitae illum ex a explicabo?
+                        Perspiciatis quis amet autem?
+                    </p>
+                    <h4 class="font-bold mt-5">Ilham Yuda</h4>
+                    <p class="font-medium">Businessman</p>
+                    <div class="flex justify-end"><img class="" src="images/circles.png"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section 5 -->
+        <section class="text-center my-24 mx-4">
+            <h2 class="text-5xl font-extrabold mb-5">News & Events</h2>
+            <p class="lg:max-w-3xl mx-auto mb-12">There are many variations of passages of Lorem Ipsum available, but
+                the majority have suffered alteration in some form, by injected humour, or randomised words which don't
+                look even slightly believable. </p>
+            <div class="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center">
+                <div class="card p-4 md:w-96 bg-gradient-to-r from-slate-100 to-slate-50 shadow-xl">
+                    <figure class="pt-4">
+                        <img src="images/news-1.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body place-items-start">
+                        <p class="text-left">Feb 05, 2027</p>
+                        <h2 class="card-title text-left">Collecting 8 points for discount</h2>
+                        <p class="text-left">There are many variations of passages of Lorem Ipsum available.</p>
+                        <h3 class="text-left"><b>Learn More</b></h3>
+                    </div>
+                </div>
+                <div class="card p-4 md:w-96 bg-gradient-to-r from-slate-100 to-slate-50 shadow-xl">
+                    <figure class="pt-4">
+                        <img src="images/news-2.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body place-items-start">
+                        <p class="text-left">Feb 05, 2027</p>
+                        <h2 class="card-title text-left">Collecting 8 points for discount</h2>
+                        <p class="text-left">There are many variations of passages of Lorem Ipsum available.</p>
+                        <h3 class="text-left"><b>Learn More</b></h3>
+                    </div>
+                </div>
+                <div class="card p-4 md:w-96 bg-gradient-to-r from-slate-100 to-slate-50 shadow-xl">
+                    <figure class="pt-4">
+                        <img src="images/news-3.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body place-items-start">
+                        <p class="text-left">Feb 05, 2027</p>
+                        <h2 class="card-title text-left">Collecting 8 points for discount</h2>
+                        <p class="text-left">There are many variations of passages of Lorem Ipsum available.</p>
+                        <h3 class="text-left"><b>Learn More</b></h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="p-4 bg-base-200 text-base-content">
+        <div class="flex flex-col lg:flex-row justify-between items-center">
+            <img class="w-16" src="images/cup.png">
+            <div class="flex flex-col lg:flex-row sm:py-2 ">
+                <h4 class="px-4 py-2">Ready to get started?</h4>
+                <button class="btn text-white  rounded-md bg-gradient-to-r from-gradient-start to-gradient-end">Get
+                    Started</button>
+            </div>
+        </div>
+        <div class="flex flex-col lg:flex-row justify-between  py-8 text-base-content ">
+            <nav class="flex flex-col py-4">
+                <h6 class="footer-title">Services</h6>
+                <a class="link link-hover">Branding</a>
+                <a class="link link-hover">Design</a>
+                <a class="link link-hover">Marketing</a>
+                <a class="link link-hover">Advertisement</a>
+            </nav>
+            <nav class="flex flex-col py-4">
+                <h6 class="footer-title">Company</h6>
+                <a class="link link-hover">About us</a>
+                <a class="link link-hover">Contact</a>
+                <a class="link link-hover">Jobs</a>
+                <a class="link link-hover">Press kit</a>
+            </nav>
+            <nav class="flex flex-col py-4">
+                <h6 class="footer-title">Legal</h6>
+                <a class="link link-hover">Terms of use</a>
+                <a class="link link-hover">Privacy policy</a>
+                <a class="link link-hover">Cookie policy</a>
+            </nav>
+            <form class="flex flex-col py-4">
+                <h6 class="footer-title">Newsletter</h6>
+                <fieldset class="form-control w-80">
+                    <label class="label">
+                        <span class="label-text">Enter your email address</span>
+                    </label>
+                    <div class="flex flex-col md:flex-row join">
+                        <input type="text" placeholder="username@site.com"
+                            class="py-2 bg-transparent border-b-2 border-black outline-none" />
+                        <button
+                            class="btn text-white  rounded-full bg-gradient-to-r from-gradient-start to-gradient-end"><i
+                                class="fa-solid fa-angle-right"></i></button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <div class="footer footer-center py-2 text-base-content">
+            <aside>
+                <p>Copyright © 2024 - All right reserved by ACME Industries Ltd</p>
+            </aside>
+        </div>
+    </footer>
+</body>
+
+</html>
